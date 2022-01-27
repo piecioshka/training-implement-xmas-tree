@@ -2,7 +2,7 @@
 
 const { expect } = require('chai');
 
-const { tree } = require('../src/xmas-tree');
+const { tree } = require('./xmas-tree');
 
 describe('"tree" function', () => {
     it('should be defined', () => {
